@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+
+/* --------- 글씨 관련 --------- */
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css); /* 웹폰트 적용 */
+.all {
+	font-family: '나눔고딕', 'Nanum Gothic', sans-serif;
+	font-size: 12px;
+}
+h1 {
+	font-size: 20px;
+}
+h1 > b {
+	font-size: 25px;
+	color: #144171;
+}
+h2 {
+	font-size: 16px;
+}
+li {
+	list-style: url("li_img.png");
+}
+/* --------- 스타일 관련 --------- */
+.all {
+	margin: 0;
+	padding: 0;
+}
+.text {
+	background: yellow;
+	width: 650px;
+}
