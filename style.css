@@ -4,16 +4,16 @@
 @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css); /* 웹폰트 적용 */
 .all {
 	font-family: '나눔고딕', 'Nanum Gothic', sans-serif;
-	font-size: 12px;
+	font-size: 13px;
 }
 b {
-	font-weight: normal;
+	/* font-weight: normal; */
 }
 h1 {
 	font-size: 20px;
 }
 h1 > b {
-	font-size: 25px;
+	font-size: 24px;
 }
 h2 {
 	font-size: 16px;
@@ -42,7 +42,10 @@ li {
 	color: green;
 }
 .f_orange {
-	color: orange;
+	color: #e06000;
+}
+.u_line {
+	text-decoration: underline;
 }
 /* --------- 스타일 관련 --------- */
 .all {
