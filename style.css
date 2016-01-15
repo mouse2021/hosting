@@ -14,7 +14,6 @@ h1 {
 }
 h1 > b {
 	font-size: 25px;
-	color: #144171;
 }
 h2 {
 	font-size: 16px;
@@ -23,14 +22,60 @@ li {
 	list-style: url("li_img.png");
 	margin-bottom: 8px;
 }
+/* --------- 색상 관련 --------- */
+.f_333 {
+	color: #333;
+}
+.f_de5347 {
+	color: #de5347;
+}
+.f_red {
+	color: red;
+}
+.f_blue {
+	color: blue;
+}
+.f_yellow {
+	color: yellow;
+}
+.f_green {
+	color: green;
+}
+.f_orange {
+	color: orange;
+}
 /* --------- 스타일 관련 --------- */
 .all {
 	margin: 0;
+	margin-top: 20px;
 	padding: 0;
+	line-height: 150%;
 }
 .text {
 	margin: 0 auto;
-	background-image: url("bg_img.png"); /* 배경 이미지 삽입 */
+	background-image: url("bg_img_02.png"); /* 배경 이미지 삽입 */
 	background-repeat: no-repeat; /* 배경 이미지 반복안함 */
-	width: 700px;
+	width: 600px;
+}
+table {
+	border-collapse: collapse; /* 테이블에서 겹친줄 한줄로 보이기 */
+	width: 100%;
+	height: 150px;
+	text-align: center;
+	vertical-align: middle;
+}
+td {
+	border: 1px solid #ccc;
+}
+.t_top {
+	border-top: 2px solid #ccc;
+}
+.t_bottom {
+	border-bottom: 2px solid #ccc;
+}
+.t_left {
+	border-left: 0;
+}
+.t_right {
+	border-right: 0;
 }
